@@ -4,7 +4,8 @@ const cors = require('cors')
 
 const contactsRouter = require('./routes/api/contacts')
 
-const app = express()
+const app = express() // веб-сервер
+
 
 const formatsLogger = app.get('env') === 'development' ? 'dev' : 'short'
 
